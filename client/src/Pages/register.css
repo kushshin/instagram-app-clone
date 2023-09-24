@@ -1,0 +1,9 @@
+.form {
+  text-align: center;
+  margin: auto;
+  border: 1px solid grey;
+  padding: 40px;
+  width: 30%;
+  height: 90vh;
+  margin-top: 10px;
+}
