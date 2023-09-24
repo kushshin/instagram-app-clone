@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavTab from "../Components/NavTab";
 import Button from "react-bootstrap/Button";
-import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
 const Editprofile = () => {
@@ -85,7 +85,6 @@ const Editprofile = () => {
                   <h4>{uName.username}</h4>
                   <input
                     type="file"
-                    // style={{ display: "hidden" }}
                     onChange={(e) => setProfilePic(e.target.files[0])}
                   />
                   {/* <Button variant="primary">Change profile photo</Button> */}
